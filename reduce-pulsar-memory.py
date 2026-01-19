@@ -22,7 +22,7 @@ PULSAR_STACK_SETTINGS = {
         'memory_limit': '600M',
         'memory_reservation': '400M',
         'jvm_env_var': 'BOOKIE_MEM',
-        'jvm_settings': '-Xms128m -Xmx128m -XX:MaxDirectMemorySize=200m',
+        'jvm_settings': '-Xms128m -Xmx128m -XX:MaxDirectMemorySize=128m',
     },
     'pulsar': {
         'memory_limit': '512M',
